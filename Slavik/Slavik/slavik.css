@@ -1,0 +1,53 @@
+body {
+  font-family: font-family: "Playfair Display";
+  background-color: #8bc2d5;
+}
+
+header {
+  text-align: center;
+  background: url("world3.png");
+  background-size: cover;
+}
+
+
+head {
+  text-align: center;
+}
+
+h1 {
+  font-family: "Playfair Display";
+  text-align:left;
+  padding: 10px
+  font-stretch: expanded;
+  font-size: 40px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+}
+p {
+  font-family: cursive;
+}
+h2 {
+  font-size: 20px
+}
+li {
+  display: flex;
+  font-size: 20px
+  text-align:right;
+  margin-right: auto;
+  margin-top: auto;
+}
+
+article {
+      max-width: 700px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+
+@media (max-width: 500px) {
+      body {
+        font-family: font-family: "Playfair Display";
+        background-color: #8bc2d5;
+      }
+}
